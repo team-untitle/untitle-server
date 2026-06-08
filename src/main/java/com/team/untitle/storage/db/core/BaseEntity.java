@@ -22,7 +22,7 @@ public abstract class BaseEntity {
 
     @Enumerated(EnumType.STRING)
     @Column(columnDefinition = "VARCHAR")
-    private EntityStatus status;
+    private EntityStatus status = EntityStatus.ACTIVE;
 
     @CreationTimestamp
     private LocalDateTime createdAt;
