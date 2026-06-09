@@ -1,6 +1,0 @@
-package com.team.untitle.storage.db.core;
-
-import org.springframework.data.jpa.repository.JpaRepository;
-
-public interface UserRepository extends JpaRepository<UserEntity, Long> {
-}
