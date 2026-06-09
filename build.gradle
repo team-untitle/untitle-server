@@ -6,7 +6,6 @@ plugins {
 
 group = 'com.team'
 version = '0.0.1-SNAPSHOT'
-description = 'untitle-server'
 
 java {
     toolchain {
